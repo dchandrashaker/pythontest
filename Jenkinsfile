@@ -25,7 +25,7 @@ pipeline {
 				sh "/usr/bin/python /dbtest/dbchk.py"
 				sh "/usr/bin/python /dbtest/dbdata.py"
 				sh "/usr/bin/python /dbtest/dbdata.py"
-				sh "/usr/bin/python /dbtest/dbdata.py"
+				
             }
         }
     }
