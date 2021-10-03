@@ -12,7 +12,7 @@ pipeline {
         stage('Test'){
             steps {
                 echo 'this is test'
-				sh "/usr/bin/cp /var/lib/jenkins/workspace/ppipeline/dbchk.py /dbtest/"
+				sh "/usr/bin/cp -u /var/lib/jenkins/workspace/ppipeline/dbchk.py /dbtest/"
                 
             }
         }
